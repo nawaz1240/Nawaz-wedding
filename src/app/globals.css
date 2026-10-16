@@ -1,0 +1,223 @@
+@import "tailwindcss";
+
+@theme {
+  --color-forest: #243a2d;
+  --color-forest-dark: #18281f;
+  --color-forest-deep: #101c15;
+  --color-forest-light: #2f4b3b;
+  --color-sage: #9da78b;
+  --color-sage-light: #b9c2a8;
+  --color-sage-subtle: #eef1ea;
+  --color-ivory: #f8f3e8;
+  --color-ivory-light: #fdfbf7;
+  --color-ivory-card: #fcf9f2;
+  --color-gold: #b58b35;
+  --color-gold-light: #d8b25e;
+  --color-gold-pale: #ebd69f;
+  --color-gold-dark: #82611e;
+  --color-blush: #d98ca2;
+  --color-blush-light: #faebf0;
+  --color-dark: #302e27;
+  --color-dark-muted: #5e5a4f;
+
+  --font-serif: var(--font-serif), "Cormorant Garamond", Georgia, serif;
+  --font-display: var(--font-display), "Playfair Display", Georgia, serif;
+  --font-script: var(--font-script), "Great Vibes", cursive;
+  --font-arabic: var(--font-arabic), "Amiri", serif;
+  --font-sans: var(--font-sans), "Plus Jakarta Sans", sans-serif;
+}
+
+:root {
+  --bg-ivory: #f8f3e8;
+  --text-dark: #302e27;
+  --accent-gold: #b58b35;
+  --accent-forest: #243a2d;
+  --accent-sage: #9da78b;
+  --accent-blush: #d98ca2;
+}
+
+/* Islamic Arch & Card Shapes */
+.islamic-arch-top {
+  border-radius: 50% 50% 0 0 / 25% 25% 0 0;
+}
+
+.islamic-dome {
+  border-top-left-radius: 9999px;
+  border-top-right-radius: 9999px;
+}
+
+/* Luxury Gold Shimmer */
+.gold-shimmer {
+  background: linear-gradient(
+    110deg,
+    #b58b35 0%,
+    #e8d39c 25%,
+    #b58b35 50%,
+    #fdf5d6 75%,
+    #b58b35 100%
+  );
+  background-size: 200% 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: goldShimmer 6s linear infinite;
+}
+
+@keyframes goldShimmer {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+.gold-border-gradient {
+  border-image: linear-gradient(
+    to bottom right,
+    #d8b25e,
+    #82611e,
+    #e8d39c,
+    #b58b35
+  ) 1;
+}
+
+/* Subtle Golden Glow */
+.glow-gold {
+  box-shadow: 0 0 25px -5px rgba(181, 139, 53, 0.25);
+}
+
+.glow-gold-lg {
+  box-shadow: 0 0 45px -8px rgba(181, 139, 53, 0.35);
+}
+
+/* Arabesque subtle background pattern */
+.bg-arabesque-pattern {
+  background-color: #f8f3e8;
+  background-image: radial-gradient(rgba(181, 139, 53, 0.08) 1px, transparent 1px),
+    radial-gradient(rgba(36, 58, 45, 0.05) 1px, transparent 1px);
+  background-size: 32px 32px;
+  background-position: 0 0, 16px 16px;
+}
+
+.bg-dark-ornate {
+  background-color: #17281f;
+  background-image: radial-gradient(rgba(216, 178, 94, 0.09) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+
+
+/* Floating particles */
+@keyframes floatUp {
+  0% {
+    transform: translateY(0px) rotate(0deg);
+    opacity: 0;
+  }
+  20% {
+    opacity: 0.6;
+  }
+  80% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateY(-120px) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+.animate-float-slow {
+  animation: floatUp 12s ease-in-out infinite;
+}
+
+/* Falling snow & petals rain animation */
+@keyframes fallDownSway {
+  0% {
+    transform: translate3d(0, -30px, 0) rotate(0deg);
+    opacity: 0;
+  }
+  15% {
+    opacity: 0.9;
+  }
+  85% {
+    opacity: 0.9;
+  }
+  100% {
+    transform: translate3d(45px, 105vh, 0) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+@keyframes fallDownSwayReverse {
+  0% {
+    transform: translate3d(0, -30px, 0) rotate(0deg);
+    opacity: 0;
+  }
+  15% {
+    opacity: 0.9;
+  }
+  85% {
+    opacity: 0.9;
+  }
+  100% {
+    transform: translate3d(-45px, 105vh, 0) rotate(-360deg);
+    opacity: 0;
+  }
+}
+
+/* Subtle gentle breathing */
+@keyframes gentlePulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.9;
+  }
+  50% {
+    transform: scale(1.03);
+    opacity: 1;
+  }
+}
+
+.animate-gentle-pulse {
+  animation: gentlePulse 4s ease-in-out infinite;
+}
+
+/* Sound wave animation */
+@keyframes soundWave {
+  0%, 100% {
+    height: 6px;
+  }
+  50% {
+    height: 18px;
+  }
+}
+
+.wave-bar-1 { animation: soundWave 1.2s ease-in-out infinite 0.1s; }
+.wave-bar-2 { animation: soundWave 1.2s ease-in-out infinite 0.3s; }
+.wave-bar-3 { animation: soundWave 1.2s ease-in-out infinite 0.5s; }
+.wave-bar-4 { animation: soundWave 1.2s ease-in-out infinite 0.2s; }
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f8f3e8;
+}
+::-webkit-scrollbar-thumb {
+  background: #b58b35;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #82611e;
+}
+
+/* Reduced motion accessibility */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
