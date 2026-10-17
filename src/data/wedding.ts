@@ -17,7 +17,7 @@ export interface WeddingEvent {
 }
 
 export interface FamilySide {
-  side: "bride" | "groom";
+  side: "groom" | "bride";
   title: string;
   candidateName: string;
   qualifications: string;
