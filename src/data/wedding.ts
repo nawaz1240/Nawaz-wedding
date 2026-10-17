@@ -87,15 +87,15 @@ export interface WeddingData {
 export const weddingData: WeddingData = {
   bismillahArabic: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
   bismillahEnglish: "In the name of Allah, the Most Beneficent, the Most Merciful",
-  bride: {
-    fullName: "Asma Thashreefa",
-    qualifications: "",
-    shortName: "Asma",
-  },
   groom: {
     fullName: "Noushad Mohammed",
     qualifications: "",
     shortName: "Noushad",
+  },
+    bride: {
+    fullName: "Asma Thashreefa",
+    qualifications: "",
+    shortName: "Asma",
   },
   monogram: "N & A",
   dateSummary: "25 November 2026",
