@@ -44,10 +44,10 @@ export function WelcomeSection() {
           <div className="my-10 py-6 px-4 sm:px-8 rounded-2xl bg-white/70 border border-[#B58B35]/20 max-w-xl mx-auto shadow-xs">
             <div className="space-y-1">
               <span className="text-xs uppercase tracking-widest text-[#9DA78B] font-serif">
-                The Bride
+                The Groom
               </span>
               <p className="font-display text-2xl sm:text-3xl font-bold text-[#243A2D]">
-                {weddingData.bride.fullName}
+                {weddingData.groom.fullName}
               </p>
             </div>
 
@@ -61,10 +61,10 @@ export function WelcomeSection() {
 
             <div className="space-y-1">
               <span className="text-xs uppercase tracking-widest text-[#9DA78B] font-serif">
-                The Groom
+                The Bride
               </span>
               <p className="font-display text-2xl sm:text-3xl font-bold text-[#243A2D]">
-                {weddingData.groom.fullName}
+                {weddingData.bride.fullName}
               </p>
             </div>
           </div>
@@ -78,7 +78,7 @@ export function WelcomeSection() {
 
           {/* Compliments badge */}
           <p className="font-serif italic text-xs sm:text-sm text-[#9DA78B] uppercase tracking-wider">
-            Inshallaha
+            Insha Allah
           </p>
         </div>
       </div>

@@ -291,7 +291,7 @@ export function ScratchToReveal() {
 
                 {/* Bride's Name */}
                 <h3 className="font-display text-2xl sm:text-3xl font-bold text-[#1E3025] tracking-tight leading-none">
-                  Asma
+                  Noushad
                 </h3>
 
                 {/* Elegant Ampersand Divider */}
@@ -303,7 +303,7 @@ export function ScratchToReveal() {
 
                 {/* Groom's Name */}
                 <h4 className="font-display text-2xl sm:text-3xl font-bold text-[#1E3025] tracking-tight leading-none">
-                  Noushad
+                  Asma
                 </h4>
 
                 {/* Dates & City */}

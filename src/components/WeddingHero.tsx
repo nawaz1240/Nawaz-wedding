@@ -51,7 +51,7 @@ export function WeddingHero({ onOpenVideo }: WeddingHeroProps) {
         {/* Couple Names — Editorial Luxury Presentation */}
         <div className="my-4 space-y-1 sm:space-y-2">
           <h1 className="font-display text-3xl sm:text-5xl md:text-6xl text-[#243A2D] font-bold tracking-tight">
-            {weddingData.bride.fullName}
+            {weddingData.groom.fullName}
           </h1>
 
           <div className="flex items-center justify-center gap-3">
@@ -63,7 +63,7 @@ export function WeddingHero({ onOpenVideo }: WeddingHeroProps) {
           </div>
 
           <h2 className="font-display text-3xl sm:text-5xl md:text-6xl text-[#243A2D] font-bold tracking-tight">
-            {weddingData.groom.fullName}
+            {weddingData.bride.fullName}
           </h2>
         </div>
 

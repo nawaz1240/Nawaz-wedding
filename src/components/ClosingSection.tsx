@@ -58,7 +58,7 @@ export function ClosingSection({ onReplayIntro }: ClosingSectionProps) {
         {/* Couple's Signature */}
         <div className="my-4">
           <h3 className="font-display text-2xl sm:text-3xl font-bold text-[#E5C365]">
-            {weddingData.bride.fullName} &amp; {weddingData.groom.fullName}
+            {weddingData.groom.fullName} &amp; {weddingData.bride.fullName}
           </h3>
           <p className="font-serif text-xs uppercase tracking-widest text-[#9DA78B] mt-1">
             {weddingData.dateSummary} · Mangalore, Karnataka

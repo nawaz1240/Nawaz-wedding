@@ -205,7 +205,7 @@ export function HeroVideoIntro({
 
             {/* Couple's Names */}
             <h1 className="font-display text-2xl sm:text-3xl font-bold text-white tracking-tight drop-shadow-md">
-              {weddingData.bride.shortName} &amp; {weddingData.groom.shortName}
+              {weddingData.groom.shortName} &amp; {weddingData.bride.shortName}
             </h1>
             <p className="font-serif text-xs uppercase tracking-widest text-[#E5C365] mt-1 mb-6">
               Wedding Invitation

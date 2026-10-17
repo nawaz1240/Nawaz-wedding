@@ -57,7 +57,7 @@ export function SiteNavigation({ onOpenShareModal }: SiteNavigationProps) {
             className="flex flex-col group cursor-pointer"
           >
             <span className="font-display text-sm sm:text-base font-bold text-[#243A2D] tracking-wide group-hover:text-[#B58B35] transition-colors leading-tight">
-              {weddingData.bride.shortName} &amp; {weddingData.groom.shortName}
+              {weddingData.groom.shortName} &amp; {weddingData.bride.shortName}
             </span>
             <span className="font-serif text-[10px] tracking-widest text-[#B58B35] uppercase mt-0.5">
               {weddingData.dateSummary}
@@ -125,11 +125,11 @@ export function SiteNavigation({ onOpenShareModal }: SiteNavigationProps) {
             onClick={(e) => e.stopPropagation()}
           >
             <p className="font-display font-bold text-base text-[#243A2D] mb-1">
-              {weddingData.bride.fullName}
+              {weddingData.groom.fullName}
             </p>
             <p className="font-script text-lg text-[#B58B35] -mt-1 mb-1">&amp;</p>
             <p className="font-display font-bold text-base text-[#243A2D] mb-4">
-              {weddingData.groom.fullName}
+              {weddingData.bride.fullName}
             </p>
 
             <div className="h-[1px] w-24 bg-[#B58B35]/30 mx-auto mb-4" />
