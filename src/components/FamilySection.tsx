@@ -98,19 +98,10 @@ export function FamilySection() {
                     {groom.relationshipTitle.replace("Son of ", "")}
                   </p>
                 </div>
-
-                <div className="p-3.5 rounded-xl bg-[#F8F3E8] border border-[#B58B35]/20">
-                  <span className="text-xs uppercase tracking-wider text-[#9DA78B] block font-semibold">
-                    Father&apos;s Profession
-                  </span>
-                  <p className="font-display text-base font-semibold text-[#243A2D] mt-0.5">
-                    {groom.fatherInfo}
-                  </p>
-                </div>
               </div>
             </div>
 
-            {/* Inshallaha footer note */}
+            {/* Insha Allah footer note */}
             <div className="mt-8 pt-4 border-t border-[#B58B35]/20 text-center">
               <p className="font-serif italic text-xs sm:text-sm text-[#82611E] font-medium">
                 Solaced by the grace and blessings of Almighty Allah
