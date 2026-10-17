@@ -26,7 +26,7 @@ export function WeddingHero({ onOpenVideo }: WeddingHeroProps) {
         <div className="mb-4 inline-flex items-center justify-center">
           <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-full border-2 border-[#B58B35] bg-[#F8F3E8] shadow-md flex items-center justify-center p-1.5 glow-gold">
             <div className="w-full h-full rounded-full border border-[#B58B35]/40 flex flex-col items-center justify-center">
-              <span className="font-display text-[#B58B35] text-base sm:text-lg font-bold tracking-widest">
+              <span className="font-display text-[#B58B35] text-sm sm:text-lg font-bold tracking-normal sm:tracking-widest whitespace-nowrap">
                 {weddingData.monogram}
               </span>
             </div>
