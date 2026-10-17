@@ -307,8 +307,10 @@ export function ScratchToReveal() {
                 </h4>
 
                 {/* Dates & City */}
-                <p className="font-serif text-[11px] sm:text-xs text-[#554C3E] mt-3 font-medium tracking-wide">
-                  25 November 2026 · Mangalore
+                <p className="font-serif text-[11px] sm:text-xs text-[#554C3E] mt-2 font-medium tracking-wide leading-snug">
+                  25 November 2026
+                  <br />
+                  Mangalore
                 </p>
               </div>
             </div>
