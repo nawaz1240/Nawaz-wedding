@@ -112,30 +112,6 @@ export function ClosingSection({ onReplayIntro }: ClosingSectionProps) {
             <Heart className="w-3.5 h-3.5 text-[#D98CA2] fill-[#D98CA2]" />
             <span>for Noushad &amp; Asma</span>
           </p>
-
-          <div className="pt-2 flex flex-col sm:flex-row items-center justify-center gap-2.5 sm:gap-4 text-xs font-serif text-[#F8F3E8]/80">
-            <span>
-              Developed by{" "}
-              <a
-                href="https://codemyfyp.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-[#E5C365] hover:text-white font-semibold underline underline-offset-4 transition-colors"
-              >
-                CodeMyFYP IT &amp; Software Solutions
-              </a>
-            </span>
-            <span className="hidden sm:inline text-[#B58B35]/40">·</span>
-            <a
-              href="https://wa.me/919483808379?text=Hello%20CodeMyFYP%2C%20I%20am%20inquiring%20about%20your%20IT%20and%20Software%20Solutions."
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-[#243A2D] hover:bg-[#2e4a38] text-[#E5C365] border border-[#B58B35]/40 transition-all hover:scale-105 shadow-xs"
-            >
-              <MessageCircle className="w-3.5 h-3.5 text-[#25D366]" />
-              <span>WhatsApp: 9483808379</span>
-            </a>
-          </div>
         </div>
       </div>
     </footer>

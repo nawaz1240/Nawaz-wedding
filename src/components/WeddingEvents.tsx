@@ -84,7 +84,7 @@ export function WeddingEvents() {
 
                   {/* Badge */}
                   <div className="inline-block px-4 py-1 rounded-full bg-[#B58B35]/30 border border-[#E5C365]/40 text-[#E5C365] text-xs font-serif uppercase tracking-widest font-semibold mb-3">
-                    Event {index + 1} · {event.badge}
+                    Event · {event.badge}
                   </div>
 
                   <h3 className="font-display text-2xl sm:text-3xl text-[#F8F3E8] font-bold tracking-tight">
