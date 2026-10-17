@@ -24,8 +24,8 @@ export function ClosingSection({ onReplayIntro }: ClosingSectionProps) {
 
       <div className="relative z-10 max-w-3xl mx-auto flex flex-col items-center">
         {/* Monogram Medallion */}
-        <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-full border border-[#B58B35] bg-[#243A2D] flex items-center justify-center p-2 mb-6 glow-gold">
-          <span className="font-display text-[#E5C365] text-lg sm:text-xl font-bold tracking-widest">
+        <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-full border border-[#B58B35] bg-[#243A2D] flex items-center justify-center p-1 mb-6 glow-gold">
+          <span className="font-display text-[#E5C365] text-base sm:text-lg font-bold tracking-wider whitespace-nowrap">
             {weddingData.monogram}
           </span>
         </div>
