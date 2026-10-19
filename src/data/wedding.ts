@@ -134,7 +134,7 @@ export const weddingData: WeddingData = {
       candidateName: "Asma Thashreefa",
       qualifications: "",
       relationshipTitle: "",
-      fatherInfo: "Daughter of Mr.Mohammed Shareef & Mrs. Hazira",
+      fatherInfo: "Daughter of Mr.Mohammed Sharief & Mrs. Hazra",
       additionalInfo: "",
     },
     groom: {
